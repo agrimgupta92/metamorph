@@ -1,0 +1,19 @@
+RNG_SEED: 1409
+ENV:
+  MODULES: ["Agent", "Terrain"]
+  STAND_HEIGHT_RATIO: 0.3
+  KEYS_TO_KEEP: ["hfield"]
+MODEL:
+  TRANSFORMER:
+    EXT_HIDDEN_DIMS: [64, 64]
+    DECODER_DIMS: [64]
+    EXT_MIX: "late"
+TERRAIN:
+  SIZE: [55, 20, 1]
+  START_FLAT: 3
+  CENTER_FLAT: 0
+  FLAT_LENGTH_RANGE: [1, 3, 1]
+  TYPES: ["curve_slope", "steps", "rugged_square"]
+  BOUNDARY_WALLS: False
+HFIELD:
+  OBS_SIZE: [1, 4, 4, 4]
