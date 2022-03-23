@@ -2,7 +2,7 @@
 
 This is the code for the paper
 
-**<a href="https://openreview.net/forum?id=Opmqtk_GvYL">MetaMorph: Learning Universal Controllers with Transformers</a>**
+**<a href="https://arxiv.org/abs/2203.11931">MetaMorph: Learning Universal Controllers with Transformers</a>**
 <br>
 <a href="http://web.stanford.edu/~agrim/">Agrim Gupta</a>,
 <a href="http://jimfan.me">Linxi Fan</a>,
